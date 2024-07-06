@@ -9,7 +9,7 @@ import reactor.core.publisher.Flux;
 // flux create does NOT check the downstream demand by default! It is by design!
 public class Lec04FluxCreateDownstreamDemand {
 
-    private static final Logger log = LoggerFactory.getLogger(Lec03FluxSinkThreadSafety.class);
+    private static final Logger log = LoggerFactory.getLogger(Lec04FluxCreateDownstreamDemand.class);
 
     public static void main(String[] args) {
 

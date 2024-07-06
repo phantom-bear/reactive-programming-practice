@@ -10,7 +10,7 @@ import java.nio.file.Path;
 
 
 public class Lec09Assignment {
-    private static final Logger log = LoggerFactory.getLogger(Lec06FluxGenerate.class);
+    private static final Logger log = LoggerFactory.getLogger(Lec09Assignment.class);
 
     public static void main(String[] args) {
         var path = Path.of("src/main/resources/sec04/file.txt");
