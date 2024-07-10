@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;
 import reactor.util.context.Context;
 
+/*
+    Context is for providing metadata about the request (similar to HTTP headers)
+ */
 public class Lec01Context {
 
     private static final Logger log = LoggerFactory.getLogger(Lec01Context.class);
